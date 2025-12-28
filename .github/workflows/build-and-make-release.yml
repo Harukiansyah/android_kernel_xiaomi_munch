@@ -294,7 +294,7 @@ jobs:
             KERNELSU_SETUP_BRANCH: ""
             KERNELSU_PATCHES: ""
 
-          - name: "No KSU (apollo)"
+          - name: "No KSU + BPF (apollo)"
             KERNEL_DEVICE_CONFIG: "apollo"
             KERNEL_TREE_BRANCH: "base-bpf"
             KERNELSU_NAME: ""
