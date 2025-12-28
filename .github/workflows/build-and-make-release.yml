@@ -64,7 +64,7 @@ jobs:
             KERNEL_DEVICE_CONFIG: "alioth"
             KERNEL_TREE_BRANCH: "base"
             KERNELSU_NAME: "KSUN"
-            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
+            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/dev/kernel/setup.sh"
             KERNELSU_SETUP_BRANCH: "legacy"
             KERNELSU_PATCHES: ""
 
@@ -72,7 +72,7 @@ jobs:
             KERNEL_DEVICE_CONFIG: "alioth"
             KERNEL_TREE_BRANCH: "base-bpf"
             KERNELSU_NAME: "KSUN"
-            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
+            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/dev/kernel/setup.sh"
             KERNELSU_SETUP_BRANCH: "legacy"
             KERNELSU_PATCHES: ""
 
@@ -145,7 +145,7 @@ jobs:
             KERNEL_DEVICE_CONFIG: "munch"
             KERNEL_TREE_BRANCH: "base"
             KERNELSU_NAME: "KSUN"
-            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
+            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/dev/kernel/setup.sh"
             KERNELSU_SETUP_BRANCH: "legacy"
             KERNELSU_PATCHES: ""
 
@@ -153,7 +153,7 @@ jobs:
             KERNEL_DEVICE_CONFIG: "munch"
             KERNEL_TREE_BRANCH: "base-bpf"
             KERNELSU_NAME: "KSUN"
-            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
+            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/dev/kernel/setup.sh"
             KERNELSU_SETUP_BRANCH: "legacy"
             KERNELSU_PATCHES: ""
 
@@ -226,7 +226,7 @@ jobs:
             KERNEL_DEVICE_CONFIG: "apollo"
             KERNEL_TREE_BRANCH: "base"
             KERNELSU_NAME: "KSUN"
-            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
+            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/dev/kernel/setup.sh"
             KERNELSU_SETUP_BRANCH: "legacy"
             KERNELSU_PATCHES: ""
 
@@ -234,7 +234,7 @@ jobs:
             KERNEL_DEVICE_CONFIG: "apollo"
             KERNEL_TREE_BRANCH: "base-bpf"
             KERNELSU_NAME: "KSUN"
-            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
+            KERNELSU_SETUP_URL: "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/dev/kernel/setup.sh"
             KERNELSU_SETUP_BRANCH: "legacy"
             KERNELSU_PATCHES: ""
 
