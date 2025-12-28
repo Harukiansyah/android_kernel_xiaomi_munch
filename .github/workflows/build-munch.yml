@@ -40,7 +40,7 @@ on:
 
       CLANG_DOWNLOAD_URL:
         description: "Clang download url"
-        default: "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/508ea7dd0d8f681904d0422e98af9613aaabf180/clang-r574158.tar.gz"
+        default: "https://github.com/Impqxr/aosp_clang_ci/releases/download/13289611/clang-13289611-linux-x86.tar.xz"
         required: true
 
 jobs:

@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 env:
-  CLANG_DOWNLOAD_URL: "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/508ea7dd0d8f681904d0422e98af9613aaabf180/clang-r574158.tar.gz"
+  CLANG_DOWNLOAD_URL: "https://github.com/Impqxr/aosp_clang_ci/releases/download/13289611/clang-13289611-linux-x86.tar.xz"
   KERNEL_TREE_URL: "https://github.com/Impqxr/kernel_xiaomi_sm8250"
   ANYKERNEL_URL_ALIOTH: "https://github.com/Impqxr/AKalioth"
   ANYKERNEL_BRANCH_ALIOTH: "main"
