@@ -84,6 +84,9 @@ function KERNEL_RESULT() {
 	rm -rf anykernel
 	git clone https://github.com/kylieeXD/AK3-Munch.git -b "$1" anykernel
 
+	# Combine all dtb
+	find out/arch/arm64/boot/dts -name '*.dtb' -exec cat {} + >"$DTB"
+
 	# Copying image
 	cp "$DTB" "anykernel/kernels/"
 	cp "$DTBO" "anykernel/kernels/"
